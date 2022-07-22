@@ -1,0 +1,19 @@
+{
+    "name": "js-api",
+    "version": "0.1.0",
+    "description": "Javascript Simple API Rest",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: nenhum teste especificado\" & exit 1",
+        "start": "nodemon ./server.js"
+    },
+    "author": "Leandro Rego",
+    "licence": "ISC",
+    "dependencies": {
+        "crypto-js": "^4.1.1",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "js-hibernate": "^1.0.14",
+        "mysql": "^2.18.1"
+    }
+}
