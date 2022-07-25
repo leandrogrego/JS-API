@@ -12,5 +12,5 @@ function normalizaPort(val) {
     return false;
 }
 app.listen(port, function () {
-    console.log(`DEVSHOT Server listening on port ${port}`)
+    console.log(`JAVASCRIPT SIMPLE API listening on port ${port}`)
 })

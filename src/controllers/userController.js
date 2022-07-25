@@ -1,4 +1,4 @@
-const api = require("../bin/api")
+const api = require("../services/api")
 
 exports.get = async (req, res, next) => {
     var id = req?.params?.id || req?.query?.id 
